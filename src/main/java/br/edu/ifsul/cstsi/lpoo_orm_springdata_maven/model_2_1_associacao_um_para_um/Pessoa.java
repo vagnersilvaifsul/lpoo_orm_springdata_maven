@@ -1,13 +1,9 @@
 package br.edu.ifsul.cstsi.lpoo_orm_springdata_maven.model_2_1_associacao_um_para_um;
 
 import jakarta.persistence.*;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Entity(name = "Pessoa")
 @Table(name = "pessoas")
-@Data
-@NoArgsConstructor
 public class Pessoa {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
