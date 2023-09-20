@@ -3,7 +3,7 @@ Projeto que demostra como fazer ORM com Spring Data JPA
 
 Artefatos utilizados:
 1. Spring Data JPA;
-2. MariDB Connector.
+2. MariaDB Connector.
 
 Observações:\
 Este projeto resolve os diagramas de classes que estão na seguinte referência:\
