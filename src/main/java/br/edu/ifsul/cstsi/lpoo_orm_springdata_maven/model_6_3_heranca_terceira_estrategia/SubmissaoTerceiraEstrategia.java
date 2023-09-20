@@ -3,7 +3,7 @@ package br.edu.ifsul.cstsi.lpoo_orm_springdata_maven.model_6_3_heranca_terceira_
 import jakarta.persistence.*;
 
 /*
-    Nesta estratégia é criada uma tabela para cada classe concreta.
+    Nesta estratégia é criada uma tabela para cada classe.
  */
 
 @Entity(name = "SubmissaoTerceiraEstrategia")
