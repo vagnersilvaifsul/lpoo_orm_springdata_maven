@@ -5,7 +5,8 @@ import jakarta.persistence.*;
 import java.time.LocalDate;
 
 /*
-    Essa estratégia demonstra como criar uma única tabela para duas classes associadas com @Embedded.
+    Introdução: Essa estratégia demonstra como criar uma única tabela para duas classes
+    associadas com @Embedded.
  */
 @Entity(name = "SocioEndereco")
 @Table(name="socios_endereco")

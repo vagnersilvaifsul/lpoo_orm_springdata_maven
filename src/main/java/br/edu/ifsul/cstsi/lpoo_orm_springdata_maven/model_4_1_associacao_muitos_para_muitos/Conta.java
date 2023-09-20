@@ -5,6 +5,9 @@ import jakarta.persistence.*;
 import java.math.BigDecimal;
 import java.util.List;
 
+/*
+    Exemplo de associação mxm.
+ */
 @Entity(name = "Conta")
 @Table(name = "contas")
 public class Conta {

@@ -5,6 +5,9 @@ import jakarta.persistence.*;
 import java.time.LocalDate;
 import java.util.List;
 
+/*
+    Exemplo de associação 1xm.
+ */
 @Entity(name = "Socio_1_para_muitos")
 @Table(name = "socios_1_para_muitos")
 public class Socio_1_para_muitos {

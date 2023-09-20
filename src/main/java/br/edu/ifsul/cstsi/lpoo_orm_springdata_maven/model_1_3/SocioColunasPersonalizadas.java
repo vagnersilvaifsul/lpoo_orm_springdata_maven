@@ -4,6 +4,11 @@ import jakarta.persistence.*;
 
 import java.time.LocalDate;
 
+/*
+    Introdução: Como mapear uma classe para entidade de banco de dados relacional.
+    Esse exemplo demonstra como adicionar detalhes no mapeamento.
+ */
+
 @Entity(name = "SocioColunasPersonalizadas")
 @Table(name="socios_colunas_personalizadas")
 public class SocioColunasPersonalizadas {

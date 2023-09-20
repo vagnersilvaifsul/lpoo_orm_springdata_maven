@@ -2,6 +2,9 @@ package br.edu.ifsul.cstsi.lpoo_orm_springdata_maven.model_2_1_associacao_um_par
 
 import jakarta.persistence.*;
 
+/*
+    Exemplo de associação 1x1.
+ */
 @Entity(name = "Pessoa")
 @Table(name = "pessoas")
 public class Pessoa {

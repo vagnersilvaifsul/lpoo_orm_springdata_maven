@@ -4,6 +4,9 @@ package br.edu.ifsul.cstsi.lpoo_orm_springdata_maven.model_3_1_associacao_um_par
 import jakarta.persistence.*;
 import java.time.LocalDate;
 
+/*
+    Exemplo de associação 1xm.
+ */
 @Entity(name = "Dependente")
 @Table(name = "dependentes")
 public class Dependente {
