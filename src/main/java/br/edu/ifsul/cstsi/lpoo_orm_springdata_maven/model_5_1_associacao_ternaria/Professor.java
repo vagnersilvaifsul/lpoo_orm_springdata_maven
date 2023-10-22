@@ -19,15 +19,14 @@ public class Professor {
 
     @ManyToMany
     @JoinTable(
-        name = "professores_turmas",
-        joinColumns = @JoinColumn(name = "professores_id"),
-        inverseJoinColumns = @JoinColumn(name = "turmas_id"))
+        name = "utiliza",
+        joinColumns = @JoinColumn(name = "professores_id")
+    )
     private List<Turma> turmas;
 
     @ManyToMany
     @JoinTable(
-        name = "professores_salas",
-        joinColumns = @JoinColumn(name = "professores_id"),
+        name = "utiliza",
         inverseJoinColumns = @JoinColumn(name = "salas_id"))
     private List<Sala> salas;
 }

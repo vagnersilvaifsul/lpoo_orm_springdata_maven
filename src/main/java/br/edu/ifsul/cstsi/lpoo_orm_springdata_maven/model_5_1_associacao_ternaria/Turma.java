@@ -20,8 +20,8 @@ public class Turma {
     private List<Professor> professores;
     @ManyToMany
     @JoinTable(
-        name = "tumas_salas",
-        joinColumns = @JoinColumn(name = "turmas_id"),
-        inverseJoinColumns = @JoinColumn(name = "salas_id"))
+        name = "utiliza",
+        joinColumns = @JoinColumn(name = "turmas_id")
+    )
     private List<Sala> salas;
 }
