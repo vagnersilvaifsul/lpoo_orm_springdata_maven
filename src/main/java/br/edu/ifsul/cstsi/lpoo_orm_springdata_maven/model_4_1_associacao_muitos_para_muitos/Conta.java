@@ -16,5 +16,5 @@ public class Conta {
     private Long id;
     private BigDecimal saldo;
     @ManyToMany(mappedBy = "contas")
-    private List<PessoaMM> pessoas;
+    private List<Pessoa> pessoas;
 }

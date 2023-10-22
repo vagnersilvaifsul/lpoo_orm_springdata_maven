@@ -18,7 +18,7 @@ import java.util.List;
 
 @Entity(name = "PessoaMM")
 @Table(name = "pessoas_mm")
-public class PessoaMM {
+public class Pessoa {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     String nome;
