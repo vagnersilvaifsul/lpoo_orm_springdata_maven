@@ -7,11 +7,10 @@ import jakarta.persistence.*;
  */
 
 @Entity(name = "SubmissaoTerceiraEstrategia")
-@Table(name = "submissoes3")
+@Table(name = "submissoes_terceira_estrategia")
 @Inheritance(strategy = InheritanceType.JOINED)
 public abstract class SubmissaoTerceiraEstrategia {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     protected String titulo;
     @Enumerated(EnumType.STRING)
