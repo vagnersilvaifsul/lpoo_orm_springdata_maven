@@ -12,7 +12,7 @@ import jakarta.persistence.*;
     discriminatorType = DiscriminatorType.STRING)
 public abstract class Submissao {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    protected Long id;
     protected String titulo;
     @Enumerated(EnumType.STRING)
     protected Situacao situacao;

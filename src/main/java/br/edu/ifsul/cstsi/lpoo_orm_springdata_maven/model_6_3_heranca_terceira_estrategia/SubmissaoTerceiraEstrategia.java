@@ -11,7 +11,7 @@ import jakarta.persistence.*;
 @Inheritance(strategy = InheritanceType.JOINED)
 public abstract class SubmissaoTerceiraEstrategia {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    protected Long id;
     protected String titulo;
     @Enumerated(EnumType.STRING)
     protected Situacao situacao;
