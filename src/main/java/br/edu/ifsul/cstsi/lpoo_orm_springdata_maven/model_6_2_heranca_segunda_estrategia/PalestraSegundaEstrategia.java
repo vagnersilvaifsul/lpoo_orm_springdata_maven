@@ -5,9 +5,6 @@ import jakarta.persistence.*;
 @Entity(name = "PalestraSegundaEstrategia")
 @Table(name = "palestras")
 public class PalestraSegundaEstrategia extends SubmissaoSegundaEstrategia {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
     private String objetivo;
     private String resumo;
     private String curriculo;

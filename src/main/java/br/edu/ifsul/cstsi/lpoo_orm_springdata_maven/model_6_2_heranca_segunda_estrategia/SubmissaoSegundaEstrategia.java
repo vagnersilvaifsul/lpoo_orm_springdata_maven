@@ -6,8 +6,10 @@ import jakarta.persistence.*;
     Nesta estratégia é criada uma tabela para cada classe concreta.
  */
 
-@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
+@MappedSuperclass
 public abstract class SubmissaoSegundaEstrategia {
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     protected String titulo;
     @Enumerated(EnumType.STRING)
     protected Situacao situacao;
